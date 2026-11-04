@@ -155,7 +155,7 @@ h1 span { background: linear-gradient(transparent 62%, var(--accent) 62% 92%, tr
 
 /* ---- Responsif ---- */
 @media (max-width: 760px) {
-  .tier[data-count="4"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tier[data-count="4"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 520px) {
   .tier { gap: 12px; }
