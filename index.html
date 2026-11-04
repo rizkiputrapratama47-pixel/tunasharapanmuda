@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Struktur Karang Taruna</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">Struktur organisasi · Periode 2026–2029</div>
+      <h1>Karang Taruna <span>Tunas Muda</span></h1>
+      <p class="lead">Ketuk kartu untuk membalik dan melihat tugas pengurus. Lagu diputar saat kartu terbuka. Ketuk lagi untuk menutup.</p>
+    </header>
+
+    <!-- Kartu dibuat otomatis oleh script.js dari data di dalamnya -->
+    <main id="tree" aria-label="Struktur pengurus"></main>
+
+    <div class="bar" id="bar" hidden>
+      <span id="nowPlaying"></span>
+      <button type="button" id="stopBtn">Hentikan</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
